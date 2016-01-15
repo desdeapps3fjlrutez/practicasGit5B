@@ -1,0 +1,9 @@
+mkdir azul
+git init
+
+touch comandos
+
+touch index.html
+
+mkdir imagenes
+git status
