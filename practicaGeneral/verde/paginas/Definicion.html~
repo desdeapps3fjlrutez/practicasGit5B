@@ -8,7 +8,6 @@
 	
 	<div class="container">
 		<ul class="nav nav-tabs">
-			<li role="presentation"><a href="Principal.html">Principal</a></li>
   			<li role="presentation"><a href="Definicion.html">Definición</a></li>
   			<li role="presentation"><a href="sesion2.html">PHP</a></li>
   			<li role="presentation"><a href="#">seccion 3</a></li>
