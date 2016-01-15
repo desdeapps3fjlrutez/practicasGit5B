@@ -29,4 +29,37 @@ git commit -m
 git push
 git pull
 	
+
+
+	
+=======
+Absalon Arturo Rodríguez García
+
+	ls,cd, git clone, git checkout, git branch, git add ., git commit -m" ", git pull, git push
+>>>>>>> 674867c040010416e0294fc585410992c6dc8179
+=======
 >>>>>>> f205cdcdc936e11ef657208a32d76296d96212a8
+>>>>>>> 0e8a71a194c8d5f5ad098a4ed6bf70c2ebb36a0d
+
+	Alejandra Edith Hernández Ruiz
+	*cd 
+	*git clone
+	*touch Definicion.html
+	*git add .
+	*git commit -m "se creo Definicion.html"
+	*git pull
+	*git push
+	*cd ..
+	*cd imagenes
+	*git add.
+	*git commit-m "se subieron imagenes"
+	*git pull
+	*git push
+	*cd ..
+	*git status
+	*touch comandos.txt
+	*notepad comandos.txt
+	*git add .
+	*git commit-m "se subieron comandos Ale"
+	*git pull
+	*git push
