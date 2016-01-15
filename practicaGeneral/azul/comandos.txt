@@ -1,9 +1,30 @@
+IRIDIAN:
 mkdir azul
 git init
-
 touch comandos
-
 touch index.html
-
 mkdir imagenes
 git status
+
+ERICK:
+git clone https://github.com/desdeapps3fjlrutez/practicasGit5B.git
+cd RamasGit
+ls
+cd practicasGit5B
+cd practicaGeneral
+cd azul
+touch pagina2.html
+touch pagina3.html
+touch pagina4.html
+touch pagina5.html
+Notepad index.html
+...
+git status
+git add .
+git commit . -m "Creacion del sitio, y menu para las páginas 2,3,4,5 e index"
+git pull 
+git push
+
+
+
+

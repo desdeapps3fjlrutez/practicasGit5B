@@ -11,6 +11,7 @@
 	*git commit --m "mensaje"
 	*git status
 	
+<<<<<<< HEAD
 	Alejandra Edith Hernández Ruiz
 	*cd 
 	*git clone
@@ -34,3 +35,8 @@
 	*git pull
 	*git push
 	
+=======
+Absalon Arturo Rodríguez García
+
+	ls,cd, git clone, git checkout, git branch, git add ., git commit -m" ", git pull, git push
+>>>>>>> 674867c040010416e0294fc585410992c6dc8179
