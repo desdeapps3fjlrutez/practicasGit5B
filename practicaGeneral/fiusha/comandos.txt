@@ -1,0 +1,58 @@
+**************************COMANDOS GIT******************************
+SELENE:
+
+ls
+pwd
+git clone https://github.com/sergiocuriel/practica-general-fiusha.git
+cd 
+cat comandos.txt
+git add .
+git commit 
+
+
+GUIDO:
+pwd
+cd
+mkdir
+touch
+git status
+git log
+git clone
+git add .
+git commit
+git pull
+git push origin master
+
+MARCO:
+git clone
+git log
+git add .
+git commit
+git pull
+
+SERGIO: 
+git https://github.com/sergiocuriel/practica-general-fiusha.git
+git touch comandos.txt
+git notepad comandos.txt
+git add .
+git commit -m "Se agrego el archivo del historial de comandos"
+git push
+git branch SergioCuriel
+git checkout SergioCuriel
+git checkout master
+git merge SergioCuriel
+git log
+git log --oneline
+
+Antonio:
+
+git clone https://github.com/sergiocuriel/practica-general-fiusha.git
+git branch AntonioRosete
+git checkout AntonioRosete
+touch git.html
+git add git.html
+gedit git.html
+git commit 
+git checkout master
+git merge AntonioRosete
+git push
