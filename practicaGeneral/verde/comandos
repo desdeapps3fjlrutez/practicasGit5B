@@ -11,3 +11,26 @@
 	*git commit --m "mensaje"
 	*git status
 	
+	Alejandra Edith Hernández Ruiz
+	*cd 
+	*git clone
+	*touch Definicion.html
+	*git add .
+	*git commit -m "se creo Definicion.html"
+	*git pull
+	*git push
+	*cd ..
+	*cd imagenes
+	*git add.
+	*git commit-m "se subieron imagenes"
+	*git pull
+	*git push
+	*cd ..
+	*git status
+	*touch comandos.txt
+	*notepad comandos.txt
+	*git add .
+	*git commit-m "se subieron comandos Ale"
+	*git pull
+	*git push
+	
