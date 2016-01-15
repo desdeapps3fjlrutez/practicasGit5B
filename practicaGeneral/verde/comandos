@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+Erick Lopez 
+*** git push
+*** git pull
+*** git add .
+*** git commit-m ""
+*** git gedit phyton.html
+*** git clone 
+=======
 
 
 	Comandos		
@@ -10,7 +19,14 @@
 	*git add .
 	*git commit --m "mensaje"
 	*git status
-	
-Absalon Arturo Rodríguez García
 
-	ls,cd, git clone, git checkout, git branch, git add ., git commit -m" ", git pull, git push
+Elsi Flores Rios
+git clone
+touch
+git add .
+git status
+git commit -m
+git push
+git pull
+	
+>>>>>>> f205cdcdc936e11ef657208a32d76296d96212a8
