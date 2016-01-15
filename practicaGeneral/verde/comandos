@@ -63,3 +63,17 @@ Absalon Arturo Rodríguez García
 	*git commit-m "se subieron comandos Ale"
 	*git pull
 	*git push
+
+
+---------------------------------------------
+Jose Alberto Morales Morante
+
+	
+	*****git clone
+	*****git status
+	*****git add .
+	*****git commit --m "mensaje"	
+	*****git pull
+	*****git push
+	*****git reset
+	*****git config --list

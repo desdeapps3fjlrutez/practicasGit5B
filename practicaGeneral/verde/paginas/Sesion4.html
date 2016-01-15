@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link href="../bootstrap-3.3.6-dist/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <title>Trabajo en Equipo</title>
+
+        <style>
+            .hovereffect {
+                width: 100%;
+                height: 100%;
+                float: left;
+                overflow: hidden;
+                position: relative;
+                text-align: center;
+                cursor: default;
+            }
+
+            .hovereffect .overlay {
+                position: absolute;
+                overflow: hidden;
+                width: 80%;
+                height: 80%;
+                left: 10%;
+                top: 10%;
+                border-bottom: 1px solid #FFF;
+                border-top: 1px solid #FFF;
+                -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+                transition: opacity 0.35s, transform 0.35s;
+                -webkit-transform: scale(0,1);
+                -ms-transform: scale(0,1);
+                transform: scale(0,1);
+            }
+
+            .hovereffect:hover .overlay {
+                opacity: 1;
+                filter: alpha(opacity=100);
+                -webkit-transform: scale(1);
+                -ms-transform: scale(1);
+                transform: scale(1);
+            }
+
+            .hovereffect img {
+                display: block;
+                position: relative;
+                -webkit-transition: all 0.35s;
+                transition: all 0.35s;
+            }
+
+            .hovereffect:hover img {
+                filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
+                filter: brightness(0.6);
+                -webkit-filter: brightness(0.6);
+            }
+
+            .hovereffect h2 {
+                text-transform: uppercase;
+                text-align: center;
+                position: relative;
+                font-size: 17px;
+                background-color: transparent;
+                color: #FFF;
+                padding: 1em 0;
+                opacity: 0;
+                filter: alpha(opacity=0);
+                -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+                transition: opacity 0.35s, transform 0.35s;
+                -webkit-transform: translate3d(0,-100%,0);
+                transform: translate3d(0,-100%,0);
+            }
+
+            .hovereffect a, hovereffect p {
+                color: #FFF;
+                padding: 1em 0;
+                opacity: 0;
+                filter: alpha(opacity=0);
+                -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+                transition: opacity 0.35s, transform 0.35s;
+                -webkit-transform: translate3d(0,100%,0);
+                transform: translate3d(0,100%,0);
+            }
+
+            .hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
+                opacity: 1;
+                filter: alpha(opacity=100);
+                -webkit-transform: translate3d(0,0,0);
+                transform: translate3d(0,0,0);
+            }
+        </style>
+    </head>
+    <body>
+
+        <div>
+
+            <ul class="nav nav-tabs">
+                <li role="presentation" class="active"><a href="#">Seccion 1</a></li>
+                <li role="presentation"><a href="#">Seccion 2</a></li>
+                <li role="presentation"><a href="#">seccion 3</a></li>
+                <li role="presentation"><a href="#">seccion 4</a></li>
+                <li role="presentation"><a href="#">seccion 5</a></li>
+            </ul>
+
+        </div>
+
+
+        <div class="bs-example">
+            <div class="panel panel-default">
+                <div class="panel-heading"><h1>STRUTS 2</h1></div>
+                <div class="panel-body">Struts 2 es un framework de presentación, dentro de las capas en las que se divide una aplicación en la arquitectura JEE, el cual implementa el controlador del patrón de diseño MVC (Modelo Vista Controlador), y que podemos configurar de varias maneras; además proporciona algunos componentes para la capa de vista. Por si fuera poco, proporciona una integración perfecta con otros frameworks para implementar la capa del modelo (como Hibernate y Spring).<br> <a href="http://www.javatutoriales.com/2011/06/struts-2-parte-1-configuracion.html">Mas informacion</a>
+                    <br>
+                    <br>
+                    <br>
+                    <h4>Funcionamiento de Struts 2</h4>
+                    Ahora que conocemos a grandes rasgos los componentes que forman Struts 2, veamos de forma general cómo son procesadas las peticiones por una aplicación desarrollada en Struts 2. La siguiente imagen nos ayudará con esto:
+                    <br>
+                    <br>
+                    Los pasos que sigue una petición son:
+                    <br>
+                    <br>
+                    1 - El navegador web hace una petición para un recurso de la aplicación (index.action, reporte.pdf, etc.). El filtro de Struts (al cual llamamos FilterDispatcher aunque esto no es del todo correcto, retomaré esto un poco más adelante) revisa la petición y determina el Action apropiado para servirla.
+                    <br>
+                    <br>
+                    2 - Se aplican los interceptores, los cuales realizan algunas funciones como validaciones, flujos de trabajo, manejo de la subida de archivos, etc.
+                    <br>
+                    <br>
+                    3 - Se ejecuta el método adecuado del Action (por default el método "execute"), este método usualmente almacena y/o regresa alguna información referente al proceso.
+                    <br>
+                    <br>
+                    4 - El Action indica cuál result debe ser aplicado. El result genera la salida apropiada dependiendo del resultado del proceso.
+                    <br>
+                    <br>
+                    5 - Se aplican al resultado los mismos interceptores que se aplicaron a la petición, pero en orden inverso.
+                    <br>
+                    <br>
+                    6 - El resultado vuelve a pasar por el FilterDispatcher aunque este ya no hace ningún proceso sobre el resultado (por definición de la especificación de Servlets, si una petición pasa por un filtro, su respuesta asociada pasa también por el mismo filtro).
+                    <br>
+                    <br>
+                    7 - El resultado es enviado al usuario y este lo visualiza.
+                    <br>
+                    <br>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="hovereffect">
+                            <img class="img-responsive" src="../imagenes/la.png" alt="" >
+                            <div class="overlay">
+                                <h2>Struts 2 diagrama</h2>
+                                <p> 
+
+                                </p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-footer clearfix">
+                <div class="pull-right">
+                    Alberto
+                    <a href="#" class="btn btn-primary">Mas informacion</a>
+                </div>
+            </div>
+        </div>
+
+
+    </body>
+
+
+</html>
