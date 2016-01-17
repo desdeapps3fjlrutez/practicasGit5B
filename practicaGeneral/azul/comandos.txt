@@ -26,5 +26,14 @@ git pull
 git push
 
 
-
-
+Jose Arturo Pérez Enríquez
+mkdir imagenes
+git clone
+touch 
+notepad  index.html
+mkdir imagenes
+git status
+ls
+git log
+git commit -m "Vídeo Enbebido Youtube"
+git add .
