@@ -1,0 +1,26 @@
+
+    Hernández Ruiz Alejandra Edith
+	Comandos.
+	
+	
+    git clone https://github.com/desdeapps3fjlrutez/practicasGit5B.git
+    git status
+    git add .
+    git commit -m "Cree Definicion.html"
+    git status
+    git add .
+    git commit -m "Añadi imagenes"
+    git status
+    git pull
+    git push
+    git clone https://github.com/desdeapps3fjlrutez/practicasGit5B.git
+    git add .
+    git status
+    git commit -m "comandos Ale"
+    git pull
+    git push
+    git log
+    history | gep git
+    history|gep git
+    history|grep git
+    history|grep git>>comandos.txt
