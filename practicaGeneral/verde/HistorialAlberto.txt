@@ -1,0 +1,30 @@
+﻿Jose Alberto Morales Morante
+
+git config --global user.name "Alberto"
+  ||  
+git config --global user.email "AlbertoMoralesMJ@Outlook.com"
+     
+git clone https://github.com/desdeapps3fjlrutez/practicasGit5B.git
+  
+git add .
+  
+git status
+     
+git commit -m "Sesion 4 Alberto"
+
+git pull  
+git push
+ 
+git pull
+git add .
+  
+git status
+     
+git commit -m "Sesion 4 Alberto pagina"
+
+git pull  
+git push
+  
+history | grep git
+  
+history | grep git >> HistorialAlberto.txt
