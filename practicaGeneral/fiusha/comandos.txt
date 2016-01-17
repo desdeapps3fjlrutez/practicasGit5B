@@ -8,6 +8,197 @@ cd
 cat comandos.txt
 git add .
 git commit 
+  293  history | grep echo >> comandos.txt
+    8  git clone https://github.com/sergiocuriel/practica-general-fiusha.git
+    9  git init
+   12  git add .
+   13  git commit -m "Se agrego comando.txt"
+   14  git config --global user.name SergioCuriel
+   15  git config --global user.email theserglan@gmail.com
+   16  git commit -m "Se agrego comando.txt"
+   17  git push
+   18  git status
+   19  git push https://github.com/sergiocuriel/practica-general-fiusha.git
+   21  git clone https://github.com/sergiocuriel/practica-general-fiusha.git
+   26  git clone https://github.com/sergiocuriel/practica-general-fiusha.git
+   28  git clone https://github.com/sergiocuriel/practica-general-fiusha.git
+   29  git config
+   30  git config list
+   31  git config --list
+   32  git config -l
+   33  git config --global -l
+   34  git config --global 
+   35  git config --global --list
+   36  git config --global -l
+   37  git config -l
+   38  git config --system -l
+   39  git config --system http.sslcainfo "C:\Archivos de programa\Git\mingw32\ssl\certs\ca-bundle.crt"
+   42  git clone https://github.com/sergiocuriel/practica-general-fiusha.git
+   48  git status
+   49  git add .
+   50  git commit -m "Se agrego el archivo del historial de comandos"
+   51  git status
+   52  git push
+   53  git pull
+   54  git config --global core.editor notepad
+   55  git status
+   57  git add .
+   58  git log
+   59  git log
+   60  git config --global core.editor notepad.exe
+   61  git log -oneline
+   62  git log --oneline
+   65  git status
+   66  git push
+   67  git touch utez.html
+   71  git status
+   72  git add .
+   73  git commit -m "Se agregó utez.html"
+   74  git pull
+   75  git status
+   77  git push
+   79  git pull
+   80  git branch SergioCuriel
+   81  git checkout SergioCuriel
+   83  git status
+   84  git add .
+   85  git commit -m "Se actualizó comandos.txt"
+   86  git checkout master
+   87  git status
+   88  git checkout SergioCuriel
+   89  git status
+   90  git pull
+   91  git status
+   93  git  pull
+   94  git add 
+   95  git add .
+   96  git commit -m "Se agregó estilo a utez.html"
+   97  git status
+   98  git checkout master
+   99  git status
+  100  git checkout master
+  101  git pull
+  102  git checkout SergioCuriel
+  103  git merge master
+  104  git ls
+  107  git status
+  108  git add .
+  109  git commit -m "Se agregó estilo a git.html"
+  110  git status
+  111  git add .
+  112  git commit -m "Se agregó el estilo a androidStudio.html"
+  113  git status
+  114  git checkout master
+  115  git pull
+  116  git checkout SergioCuriel
+  117  git status
+  118  git status
+  121  git log
+  122  git log --oneline
+  123  git log -oneline
+  125  git status
+  126  git add .
+  127  git commit -m "modificacion en comandos"
+  128  git checkout
+  129  git status
+  131  git log --oneline
+  132  git checkout master
+  134  git status
+  135  git merge SergioCuriel
+  136  git status
+  137  git log --oneline
+  138  git checkout SergioCuriel
+  139  git pull
+  140  git ls
+  143  git pull
+  144  git checkout master
+  145  git pull
+  146  git status
+  147  git checkout SergioCuriel
+  148  git status
+  149  git merge master
+  150  git status
+  151  git checkout master
+  152  git pull
+  153  git checkout SergioCuriel
+  154  git merge master
+  156  git staus
+  157  git status
+  158  git checkout master
+  159  git status
+  160  git checkout SergioCuriel
+  162  git status
+  163  git add .
+  164  git commit -m "se agregó estilo a miembros.html"
+  165  git status
+  166  git checkout master
+  167  git merge SergioCuriel
+  168  git status
+  172  git add .
+  173  git commit -m "se modificó comandos"
+  174  git status
+  175  git add .
+  176  git commit -m "se agregó estilo a index.html"
+  177  git status
+  178  git push
+  180  git merge SergioCuriel
+  181  git pull
+  182  git status
+  184  git push
+  185  git status
+  191  git status
+  192  git status
+  193  git add .
+  194  git status
+  195  git commit -m "Se agregó practica del equipo fiusha"
+  196  git push
+  197  git status
+  209  git status
+  213  git status
+  219  git pull
+  222  git status
+  223  git pull
+  224  git status
+  225  git checkout practicaGeneral/fiusha/practica-general-fiusha
+  226  git status
+  227  git commit -m "se borro carpeta vacia"
+  228  git status
+  229  git log --oneline
+  230  git status
+  231  git push
+  232  git status
+  240  git status
+  241  git rm practicaGeneral/fiusha/practica-general-fiusha
+  243  git status
+  244  git commit -m "se removio carpeta fiusha vacia"
+  245  git push
+  246  git status
+  247  git log --oneline
+  248  git log
+  249  git log --stats
+  250  git log --stat
+  251  git pull
+  252  git checkout SergioCuriel
+  253  git branch equipoFiusha
+  254  git checkout equipoFiusha
+  258  git status
+  259  git touch fiusha/index.html
+  269  touch git.html
+  275  git status
+  276  git add .
+  277  git status
+  278  git status
+  279  git add .
+  280  git status
+  281  git commit -m "se agregaron archivos equipo fiusha"
+  282  git status
+  283  git checkout master
+  284  git merge equipoFiusha
+  288  git merge equipoFiusha
+  289  git status
+  290  git push
+  291  git pull
+  296  history | grep git >> comandos.txt
 
 
 GUIDO:
@@ -43,6 +234,202 @@ git checkout master
 git merge SergioCuriel
 git log
 git log --oneline
+#Con History:
+8  git clone https://github.com/sergiocuriel/practica-general-fiusha.git
+    9  git init
+   12  git add .
+   13  git commit -m "Se agrego comando.txt"
+   14  git config --global user.name SergioCuriel
+   15  git config --global user.email theserglan@gmail.com
+   16  git commit -m "Se agrego comando.txt"
+   17  git push
+   18  git status
+   19  git push https://github.com/sergiocuriel/practica-general-fiusha.git
+   21  git clone https://github.com/sergiocuriel/practica-general-fiusha.git
+   26  git clone https://github.com/sergiocuriel/practica-general-fiusha.git
+   28  git clone https://github.com/sergiocuriel/practica-general-fiusha.git
+   29  git config
+   30  git config list
+   31  git config --list
+   32  git config -l
+   33  git config --global -l
+   34  git config --global 
+   35  git config --global --list
+   36  git config --global -l
+   37  git config -l
+   38  git config --system -l
+   39  git config --system http.sslcainfo "C:\Archivos de programa\Git\mingw32\ssl\certs\ca-bundle.crt"
+   42  git clone https://github.com/sergiocuriel/practica-general-fiusha.git
+   48  git status
+   49  git add .
+   50  git commit -m "Se agrego el archivo del historial de comandos"
+   51  git status
+   52  git push
+   53  git pull
+   54  git config --global core.editor notepad
+   55  git status
+   57  git add .
+   58  git log
+   59  git log
+   60  git config --global core.editor notepad.exe
+   61  git log -oneline
+   62  git log --oneline
+   65  git status
+   66  git push
+   67  git touch utez.html
+   71  git status
+   72  git add .
+   73  git commit -m "Se agregó utez.html"
+   74  git pull
+   75  git status
+   77  git push
+   79  git pull
+   80  git branch SergioCuriel
+   81  git checkout SergioCuriel
+   83  git status
+   84  git add .
+   85  git commit -m "Se actualizó comandos.txt"
+   86  git checkout master
+   87  git status
+   88  git checkout SergioCuriel
+   89  git status
+   90  git pull
+   91  git status
+   93  git  pull
+   94  git add 
+   95  git add .
+   96  git commit -m "Se agregó estilo a utez.html"
+   97  git status
+   98  git checkout master
+   99  git status
+  100  git checkout master
+  101  git pull
+  102  git checkout SergioCuriel
+  103  git merge master
+  104  git ls
+  107  git status
+  108  git add .
+  109  git commit -m "Se agregó estilo a git.html"
+  110  git status
+  111  git add .
+  112  git commit -m "Se agregó el estilo a androidStudio.html"
+  113  git status
+  114  git checkout master
+  115  git pull
+  116  git checkout SergioCuriel
+  117  git status
+  118  git status
+  121  git log
+  122  git log --oneline
+  123  git log -oneline
+  125  git status
+  126  git add .
+  127  git commit -m "modificacion en comandos"
+  128  git checkout
+  129  git status
+  131  git log --oneline
+  132  git checkout master
+  134  git status
+  135  git merge SergioCuriel
+  136  git status
+  137  git log --oneline
+  138  git checkout SergioCuriel
+  139  git pull
+  140  git ls
+  143  git pull
+  144  git checkout master
+  145  git pull
+  146  git status
+  147  git checkout SergioCuriel
+  148  git status
+  149  git merge master
+  150  git status
+  151  git checkout master
+  152  git pull
+  153  git checkout SergioCuriel
+  154  git merge master
+  156  git staus
+  157  git status
+  158  git checkout master
+  159  git status
+  160  git checkout SergioCuriel
+  162  git status
+  163  git add .
+  164  git commit -m "se agregó estilo a miembros.html"
+  165  git status
+  166  git checkout master
+  167  git merge SergioCuriel
+  168  git status
+  172  git add .
+  173  git commit -m "se modificó comandos"
+  174  git status
+  175  git add .
+  176  git commit -m "se agregó estilo a index.html"
+  177  git status
+  178  git push
+  180  git merge SergioCuriel
+  181  git pull
+  182  git status
+  184  git push
+  185  git status
+  191  git status
+  192  git status
+  193  git add .
+  194  git status
+  195  git commit -m "Se agregó practica del equipo fiusha"
+  196  git push
+  197  git status
+  209  git status
+  213  git status
+  219  git pull
+  222  git status
+  223  git pull
+  224  git status
+  225  git checkout practicaGeneral/fiusha/practica-general-fiusha
+  226  git status
+  227  git commit -m "se borro carpeta vacia"
+  228  git status
+  229  git log --oneline
+  230  git status
+  231  git push
+  232  git status
+  240  git status
+  241  git rm practicaGeneral/fiusha/practica-general-fiusha
+  243  git status
+  244  git commit -m "se removio carpeta fiusha vacia"
+  245  git push
+  246  git status
+  247  git log --oneline
+  248  git log
+  249  git log --stats
+  250  git log --stat
+  251  git pull
+  252  git checkout SergioCuriel
+  253  git branch equipoFiusha
+  254  git checkout equipoFiusha
+  258  git status
+  259  git touch fiusha/index.html
+  269  touch git.html
+  275  git status
+  276  git add .
+  277  git status
+  278  git status
+  279  git add .
+  280  git status
+  281  git commit -m "se agregaron archivos equipo fiusha"
+  282  git status
+  283  git checkout master
+  284  git merge equipoFiusha
+  288  git merge equipoFiusha
+  289  git status
+  290  git push
+  291  git pull
+  296  history | grep git >> comandos.txt
+  298  git pull
+  299  history | grep git >> comandos.txt
+  300  history | grep git >> comandos.txt
+
+
 
 Antonio:
 
@@ -56,3 +443,4 @@ git commit
 git checkout master
 git merge AntonioRosete
 git push
+    
