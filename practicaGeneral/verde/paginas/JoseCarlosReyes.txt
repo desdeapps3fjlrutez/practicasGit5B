@@ -1,0 +1,248 @@
+    3  mkdir gitTrabajos
+    5  cd gitTrabajos/
+    6  git init
+    7  cd .git
+   12  git status
+   15  git add
+   16  git add index.html
+   17  git status
+   18  git config --global user.name"JoseCarlosReyes"
+   19  git config --global user.mail dickaiaes@gmail.com
+   20  git commit
+   21  git config --global user.email dickaiaes@gmail.com
+   22  git config --global user.name JoseCarlosReyes
+   23  git commit
+   24  git config --global core.editor sublime text 2
+   25  git commit -m "agregado"
+   26  git log
+   30  git statius
+   31  git status
+   32  git diff
+   34  git diff
+   38  cd gitTrabajos
+   43  mkdir git
+   44  git config --global core.editor sublime text
+   47  cd gitTrabajos
+   52  git statuis
+   53  git status
+   54  git add
+   55  gitadd
+   56  git add
+   57  git add hola.txt
+   58  git status
+   59  git commit
+   60  git config -- global core.editor sublime text 2
+   61  git commit
+   62  git config -- global core.editor notepad
+   63  git config --global core.editor sublime text 2
+   64  git add index.html
+   65  git status
+   66  git  commit
+   67  git  commit hola.txt
+   68  git status
+   71  git rm index.html
+   73  git status
+   74  git commit index.html
+   75  git commit --agregando
+   76  git commit --m agregando
+   77  git mv index.html nombre.html
+   78  git status
+   79  git commit --m nombre Modificado
+   80  git commit --m nombre_Modificado
+   83  git status
+   84  git add
+   85  git add archivo.html
+   86  git status
+   87  git status
+   88  git checkout -- archivo.html
+   89  git status
+   90  git commit --m "nuevo html"
+   91  git status
+   92  git add
+   93  git add.
+   94  git status
+   95  git add.
+   96  git log
+   97  git log --online
+   98  git log --oneline
+  100  cd .git
+  104  git status
+  105  cd gitTrabajos
+  107  git status}
+  108  git status
+  109  git add.
+  110  git status
+  111  git add archivo.html
+  112  git status
+  113  git commit --m "prueba 13/01"
+  114  git branch
+  117  git branch rama1
+  118  git branch
+  119  git checkout rama1
+  121  git checkout master
+  122  git checkout rama1
+  123  git status
+  124  git checkout master
+  125  git status
+  126  git checkout rama1
+  128  git status
+  130  git add .
+  131  git status
+  132  git commit --"agregado desde rama1"
+  133  git commit --m "agregado desde rama1"
+  134  git checkout master
+  135  git status
+  136  git checkout rama1
+  139  git status
+  140  git add .
+  141  git commit --m "nuevo"
+  143  git checkout master
+  144  git  merge rama1
+  145  git checkout rama1
+  147  git  checkout master
+  149  git add .
+  150  git status
+  151  git commit --m "agregarLinea"
+  152  git status
+  153  git checkout rama1
+  154  git status
+  168  git clone https://github.com/ffranjavierutez/gitdesdeapps3.git
+  170  cd gitdesdeapps3
+  184  cd gitdesdeapps3
+  190  git branch JoseReyes
+  191  git checkout JoseReyes
+  194  git mv joseC
+  195  git rv joseC
+  196  git rm joseC
+  204  git status
+  205  git add .
+  206  git status
+  207  git commit --m "mi practica"
+  211  git checkout master
+  217  cd gitdesdeapps3
+  224  git checkout master
+  228  git checkout JoseReyes
+  229  git merge 
+  230  git checkout master
+  231  git merge JoseReyes
+  238  git push
+  239  git push
+  240  git pull
+  241  git config --global core.editor notepad
+  242  git pull
+  243  git merge <branch>
+  244  git merge <JoseReyes>
+  245  git merge <branch>
+  246  git merge
+  247  git merge <branch>
+  248  git merge branch
+  249  git checkout josereyes
+  250  git statuis
+  251  git status
+  252  git commit --m "mi practica"
+  253  git checkout master
+  254  git merge <branch>
+  255  git pull
+  256  git push
+  264  cd que es git
+  269  git status
+  270  git add .
+  271  git status
+  272  git commit --m "definicion de git"
+  273  git pull
+  274  git push
+  277  git clone https://github.com/desdeapps3fjlrutez/practicasGit5B.git
+  285  git clone https://github.com/desdeapps3fjlrutez/practicasGit5B.git
+  291  git status
+  292  git add.
+  293  git add .
+  294  git status
+  295  git commit -m "trabajo de equipo verde"
+  296  git status
+  297  git pull
+  298  git push
+  299  git push
+  301  git push
+  302  git status
+  303  git status
+  304  git status+
+  305  git status
+  306  git add .
+  307  git commit -m "actualizacion de Pagina principal"
+  308  git pull
+  309  git push
+  310  git
+  311  git status
+  312  git add .
+  313  git status
+  314  git commit --m "Actualizacion final de la principal
+  316  git push
+  317  git pull
+  319  git status
+  320  git add .
+  321  git status
+  322  +git 
+  323  git commit --m "composicion de errores"
+  324  git pull
+  325  git push
+  326  git add .
+  327  git status
+  328  git commit --m "comandos agregados al archivo txt"
+  329  git pull
+  330  git push
+  331  git status
+  333  git add .
+  334  git status
+  335  git commit --m "cambiando carpeta  Solicitada"
+  336  git pull
+  337  git push
+  338  git pull
+  339  git pull
+  340  git status
+  341  git add .
+  342  git status
+  343  +git commit --m "eliminando archivos copias"
+  344  git commit --m "eliminando archivos copias"
+  345  git pull
+  346  git pudh
+  347  git push
+  349  git status
+  357  git pull
+  374  git pull
+  379  git status
+  380  git add .
+  381  git commit -m "agregando css"
+  382  git status
+  383  git add .
+  384  git commit --m
+  385  git commit --m "Correcciones hechas"
+  386  git pul
+  387  git pull
+  388  git push
+  389  history|grep git
+  392  history|grep git >> conmandos1.txt
+  393  history|grep git >> con.txt
+  394  history|grep git >> JoseCarlosReyes.txt
+  409  git rm con.txt
+  411  git status
+  412  git add .
+  413  history|grep git >> con.txt
+  415  history|grep git >> con.txt
+  416  git add .
+  417  git pull
+  418  git status
+  419  git add con.txt
+  420  grep git
+  424  git clone https://github.com/desdeapps3fjlrutez/practicasGit5B.git
+  437  git rm -f con.txt
+  440  git rm con.txt
+  442  git rm paginas/con.txt
+  443  git rm verde/paginas/con.txt
+  444  git rm C:\todoGit\practicasGit5B\practicaGeneral\verde\paginas\con.txt
+  445  git rm C:\todoGit\practicasGit5B\practicaGeneral\verde\paginas\con.txt
+  446  git rm C:/todoGit/practicasGit5B/practicaGeneral/verde/paginas/con.txt
+  458  git pull
+  460  git status
+  461  git add .
+  464  git status
+  465  history | grep git >>JoseCarlosReyes.txt
